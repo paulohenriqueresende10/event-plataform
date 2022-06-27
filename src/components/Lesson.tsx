@@ -20,7 +20,7 @@ export function Lesson( props: LessonProps){
             <span className="text-gray-300"> 
                 {availableDateFormatted}
             </span>
-            <div className="rounded border border-gray-500 p-4 mt-2">
+            <div className="rounded border border-gray-500 p-4 mt-2 hover:border hover:border-green-500 transition-colors active:bg-green-500">
                 <header className="flex items-center justify-between"> 
                   {isLessonAvaliable ?(
                         <span className="text-sm text-blue-500 font-medium flex items-center gap-2">
